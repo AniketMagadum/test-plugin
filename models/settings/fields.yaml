@@ -1,0 +1,12 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    sample_image:
+        label: Sample Image
+        type: fileupload
+        commentAbove: Sample Image to test 
+        mode: image
+        imageHeight: 150
+        imageWidth: 150

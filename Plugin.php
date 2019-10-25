@@ -188,4 +188,18 @@ class Plugin extends PluginBase
             }
         }
     }
+
+    public function registerSettings()
+    {
+        return [
+            'settings' => [
+                'label'       => 'Sample Settings',
+                'description' => 'Settings to test image functionality.',
+                'icon'        => 'icon-cog',
+                'class'       => 'October\Test\Models\Settings',
+                'order'       => 500,
+            ]
+        ];
+    }
+
 }
